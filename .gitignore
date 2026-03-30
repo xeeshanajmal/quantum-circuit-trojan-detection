@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+data/stage1_benign/circuits/
+data/stage2_tampered/circuits/
+data/stage3_features/features_v2.csv
+*.qpy
+*.qasm
