@@ -1,0 +1,16 @@
+{
+  "sample_id": "benign_deutsch_jozsa_v1_000049",
+  "label": "benign",
+  "trojan_type": "benign",
+  "trojan_severity": null,
+  "algorithm_family": "deutsch_jozsa",
+  "algorithm_version": "v1",
+  "parent_sample_id": null,
+  "n_qubits": 6,
+  "oracle_type": "balanced",
+  "generation_index": 49,
+  "generation_seed": 1049,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T14:25:55.089550+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "model_a": "random_forest",
+  "model_b": "rbf_svm",
+  "b": 5865,
+  "c": 367,
+  "chi2": 4848.685654685494,
+  "p_value": 0.0,
+  "significant_p005": true
+}

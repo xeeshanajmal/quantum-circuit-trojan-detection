@@ -1,0 +1,21 @@
+{
+  "sample_id": "benign_vqc_v1_000097",
+  "label": "benign",
+  "trojan_type": "benign",
+  "trojan_severity": null,
+  "algorithm_family": "vqc",
+  "algorithm_version": "v1",
+  "parent_sample_id": null,
+  "n_qubits": 7,
+  "reps": 4,
+  "rotation_blocks": [
+    "ry"
+  ],
+  "entanglement": "full",
+  "num_parameters": 35,
+  "generation_index": 97,
+  "generation_seed": 4097,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T14:38:45.898266+00:00"
+}

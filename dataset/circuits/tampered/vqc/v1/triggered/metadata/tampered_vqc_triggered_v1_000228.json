@@ -1,0 +1,29 @@
+{
+  "sample_id": "tampered_vqc_triggered_v1_000228",
+  "label": "tampered",
+  "trojan_type": "triggered",
+  "trojan_severity": null,
+  "algorithm_family": "vqc",
+  "algorithm_version": "v1",
+  "parent_sample_id": "benign_vqc_v1_000228",
+  "n_qubits": 9,
+  "insertion_index": 10,
+  "insertion_point": "after_first_cx_entanglement_layer",
+  "reps": 4,
+  "rotation_blocks": [
+    "ry"
+  ],
+  "entanglement": "full",
+  "generation_index": 228,
+  "generation_seed": 42228,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T15:55:46.484100+00:00",
+  "mod_class": "B",
+  "control_qubit": 7,
+  "target_qubit": 5,
+  "phase_angle": 2.0,
+  "payload_gate_count": 1,
+  "dormancy_condition": "control qubit |0> (normal execution)",
+  "payload_description": "MCPhaseGate(2.00) controlled by qubit 7, target qubit 5. Dormant when control is |0>."
+}

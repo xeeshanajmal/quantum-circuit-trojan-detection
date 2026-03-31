@@ -1,0 +1,18 @@
+{
+  "sample_id": "benign_qft_v1_000050",
+  "label": "benign",
+  "trojan_type": "benign",
+  "trojan_severity": null,
+  "algorithm_family": "qft",
+  "algorithm_version": "v1",
+  "parent_sample_id": null,
+  "n_qubits": 5,
+  "direction": "qft",
+  "do_swaps": false,
+  "circuit_depth": 9,
+  "generation_index": 50,
+  "generation_seed": 5050,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T14:43:37.687826+00:00"
+}

@@ -1,0 +1,142 @@
+{
+  "sample_id": "benign_qaoa_v1_000404",
+  "label": "benign",
+  "trojan_type": "benign",
+  "trojan_severity": null,
+  "algorithm_family": "qaoa",
+  "algorithm_version": "v1",
+  "parent_sample_id": null,
+  "n_qubits": 12,
+  "p_layers": 1,
+  "num_edges": 30,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      11
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      11
+    ]
+  ],
+  "edge_probability": 0.449988,
+  "graph_seed": 103404,
+  "num_parameters": 2,
+  "generation_index": 404,
+  "generation_seed": 3404,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T14:34:52.811795+00:00"
+}

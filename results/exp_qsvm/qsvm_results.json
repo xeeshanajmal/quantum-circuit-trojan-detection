@@ -1,0 +1,18 @@
+{
+  "model": "QSVM",
+  "feature_map": "ZZFeatureMap",
+  "reps": 2,
+  "entanglement": "linear",
+  "pca_dimensions": 4,
+  "explained_variance": 0.7992709605081629,
+  "train_samples": 600,
+  "test_samples": 1800,
+  "balanced_accuracy": 0.4144444444444444,
+  "f1_macro": 0.4148076107805095,
+  "roc_auc_ovr": 0.5915050925925927,
+  "random_baseline": 0.3333,
+  "kernel_train_time_s": 4082.437422,
+  "kernel_test_time_s": 35257.471486,
+  "created": "2026-03-31T09:05:03.792185+00:00",
+  "note": "QSVM is a proof-of-concept baseline only. Trained on subsampled data with PCA reduction due to quantum kernel simulation constraints. Not directly comparable to classical models trained on full feature set."
+}

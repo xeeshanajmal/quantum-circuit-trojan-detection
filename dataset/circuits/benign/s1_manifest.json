@@ -1,0 +1,46 @@
+{
+  "notebook": "S1_benign_circuits.ipynb",
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "dataset_version": "v1",
+  "created": "2026-03-30T14:54:01.562416+00:00",
+  "total_circuits": 3000,
+  "families": {
+    "deutsch_jozsa": {
+      "circuits": 600,
+      "metadata": 600,
+      "qubit_min": 3,
+      "qubit_max": 8,
+      "status": "\u2713 PASS"
+    },
+    "grover": {
+      "circuits": 600,
+      "metadata": 600,
+      "qubit_min": 4,
+      "qubit_max": 12,
+      "status": "\u2713 PASS"
+    },
+    "qaoa": {
+      "circuits": 600,
+      "metadata": 600,
+      "qubit_min": 6,
+      "qubit_max": 14,
+      "status": "\u2713 PASS"
+    },
+    "vqc": {
+      "circuits": 600,
+      "metadata": 600,
+      "qubit_min": 4,
+      "qubit_max": 12,
+      "status": "\u2713 PASS"
+    },
+    "qft": {
+      "circuits": 600,
+      "metadata": 600,
+      "qubit_min": 4,
+      "qubit_max": 12,
+      "status": "\u2713 PASS"
+    }
+  },
+  "validation_passed": true
+}

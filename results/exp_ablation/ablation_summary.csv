@@ -1,0 +1,4 @@
+condition,n_features,bal_acc_mean,bal_acc_std,f1_macro_mean,f1_macro_std
+full_39,39,0.9527,0.0029,0.9527,0.0029
+top_5,5,0.9586,0.0043,0.9586,0.0043
+naive_3,3,0.9246,0.0041,0.9248,0.004

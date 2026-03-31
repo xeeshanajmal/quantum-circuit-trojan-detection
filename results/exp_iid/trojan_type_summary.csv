@@ -1,0 +1,10 @@
+model,class,precision,recall,f1,support
+random_forest,benign,0.9315,0.9266,0.929,9000
+random_forest,static,0.9996,0.9977,0.9986,9000
+random_forest,triggered,0.9272,0.9339,0.9305,9000
+linear_svm,benign,0.7384,0.8602,0.7947,9000
+linear_svm,static,0.7868,0.6977,0.7396,9000
+linear_svm,triggered,0.6633,0.629,0.6457,9000
+rbf_svm,benign,0.8149,0.761,0.787,9000
+rbf_svm,static,0.7462,0.7936,0.7692,9000
+rbf_svm,triggered,0.6908,0.6927,0.6917,9000

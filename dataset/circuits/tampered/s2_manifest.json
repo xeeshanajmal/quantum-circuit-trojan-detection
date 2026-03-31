@@ -1,0 +1,73 @@
+{
+  "notebook": "S2_tampered_circuits.ipynb",
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "dataset_version": "v1",
+  "created": "2026-03-30T16:26:52.869946+00:00",
+  "total_tampered": 6000,
+  "total_expected": 6000,
+  "families": [
+    "deutsch_jozsa",
+    "grover",
+    "qaoa",
+    "vqc",
+    "qft"
+  ],
+  "trojan_types": [
+    "static",
+    "triggered"
+  ],
+  "validation_passed": true,
+  "per_family": {
+    "deutsch_jozsa": {
+      "static": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      },
+      "triggered": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      }
+    },
+    "grover": {
+      "static": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      },
+      "triggered": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      }
+    },
+    "qaoa": {
+      "static": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      },
+      "triggered": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      }
+    },
+    "vqc": {
+      "static": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      },
+      "triggered": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      }
+    },
+    "qft": {
+      "static": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      },
+      "triggered": {
+        "circuits": 600,
+        "status": "\u2713 PASS"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "random_forest": {
+    "statistic": 4.0,
+    "p_value": 0.40600584970983794
+  },
+  "linear_svm": {
+    "statistic": 4.0,
+    "p_value": 0.40600584970983794
+  },
+  "rbf_svm": {
+    "statistic": 4.0,
+    "p_value": 0.40600584970983794
+  }
+}

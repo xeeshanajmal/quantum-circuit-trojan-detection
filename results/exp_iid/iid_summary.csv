@@ -1,0 +1,4 @@
+model,bal_acc_mean,bal_acc_std,f1_macro_mean,f1_macro_std,roc_auc_mean,roc_auc_std
+random_forest,0.9527,0.0029,0.9527,0.0029,0.9961,0.0004
+linear_svm,0.729,0.0098,0.7266,0.01,0.8968,0.0051
+rbf_svm,0.7491,0.008,0.7493,0.0083,0.9127,0.0047

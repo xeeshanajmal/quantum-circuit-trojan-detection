@@ -1,0 +1,6 @@
+family,recall_benign,recall_static,recall_triggered
+deutsch_jozsa,1.0,1.0,1.0
+grover,1.0,1.0,1.0
+qaoa,0.9133,1.0,0.9433
+qft,1.0,1.0,1.0
+vqc,0.9967,0.9983,1.0

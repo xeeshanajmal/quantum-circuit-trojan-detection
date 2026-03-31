@@ -1,0 +1,62 @@
+{
+  "sample_id": "benign_qaoa_v1_000104",
+  "label": "benign",
+  "trojan_type": "benign",
+  "trojan_severity": null,
+  "algorithm_family": "qaoa",
+  "algorithm_version": "v1",
+  "parent_sample_id": null,
+  "n_qubits": 7,
+  "p_layers": 3,
+  "num_edges": 10,
+  "edges": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "edge_probability": 0.447906,
+  "graph_seed": 103104,
+  "num_parameters": 6,
+  "generation_index": 104,
+  "generation_seed": 3104,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T14:34:45.760599+00:00"
+}

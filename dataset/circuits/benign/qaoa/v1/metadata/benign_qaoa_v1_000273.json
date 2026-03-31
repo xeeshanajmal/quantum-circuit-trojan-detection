@@ -1,0 +1,166 @@
+{
+  "sample_id": "benign_qaoa_v1_000273",
+  "label": "benign",
+  "trojan_type": "benign",
+  "trojan_severity": null,
+  "algorithm_family": "qaoa",
+  "algorithm_version": "v1",
+  "parent_sample_id": null,
+  "n_qubits": 13,
+  "p_layers": 3,
+  "num_edges": 36,
+  "edges": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      11
+    ],
+    [
+      0,
+      12
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      12
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      12
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "edge_probability": 0.40174,
+  "graph_seed": 103273,
+  "num_parameters": 6,
+  "generation_index": 273,
+  "generation_seed": 3273,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T14:34:49.522144+00:00"
+}

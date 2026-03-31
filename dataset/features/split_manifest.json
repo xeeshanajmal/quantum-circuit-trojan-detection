@@ -1,0 +1,33 @@
+{
+  "notebook": "S4_split_index.ipynb",
+  "created": "2026-03-30T19:48:05.189042+00:00",
+  "seed": 42,
+  "n_folds": 5,
+  "n_repeats": 3,
+  "total_cv_fits": 15,
+  "total_circuits": 9000,
+  "total_sources": 3000,
+  "features_path": "C:\\Users\\zajmal23\\OneDrive - University of Oulu and Oamk\\quantum_circuits_exp\\dataset\\features\\features_v1.csv",
+  "split_path": "C:\\Users\\zajmal23\\OneDrive - University of Oulu and Oamk\\quantum_circuits_exp\\dataset\\features\\split_index.csv",
+  "stratification": "source_circuit_by_algorithm_family",
+  "leakage_verified": true,
+  "family_counts": {
+    "deutsch_jozsa": 1800,
+    "grover": 1800,
+    "qaoa": 1800,
+    "vqc": 1800,
+    "qft": 1800
+  },
+  "trojan_type_counts": {
+    "benign": 3000,
+    "static": 3000,
+    "triggered": 3000
+  },
+  "fold_cols": [
+    "fold_iid_r0",
+    "fold_iid_r1",
+    "fold_iid_r2"
+  ],
+  "holdout_col": "holdout_family",
+  "validation_passed": true
+}

@@ -1,0 +1,199 @@
+{
+  "extractor_version": "QCTrojan-Bench-feature-extractor-v1.0",
+  "qiskit_version": "2.3.1",
+  "dataset_version": "v1",
+  "features_version": "v1",
+  "created": "2026-03-30T19:39:26.055930+00:00",
+  "backend": "FakeGuadalupeV2",
+  "backend_n_qubits": 16,
+  "transpiler_seed": 12345,
+  "opt_levels": [
+    0,
+    3
+  ],
+  "total_circuits": 9000,
+  "total_features": 39,
+  "metadata_columns": [
+    "sample_id",
+    "parent_sample_id",
+    "label",
+    "trojan_type",
+    "algorithm_family",
+    "n_qubits"
+  ],
+  "feature_columns": [
+    "logical_depth_per_qubit",
+    "logical_twoq_per_depth",
+    "logical_cx_ratio",
+    "logical_max_degree_norm",
+    "logical_degree_std_over_mean",
+    "logical_max_edge_weight_over_total",
+    "logical_frac_interactions_top1",
+    "logical_frac_interactions_top2",
+    "logical_entangling_layers_ratio",
+    "logical_fraction_layers_active",
+    "logical_max_twoq_in_layer_norm",
+    "logical_layer_twoq_std_over_mean",
+    "opt0_depth_per_qubit",
+    "opt0_twoq_per_depth",
+    "opt0_cx_ratio",
+    "opt0_max_degree_norm",
+    "opt0_degree_std_over_mean",
+    "opt0_max_edge_weight_over_total",
+    "opt0_frac_interactions_top1",
+    "opt0_frac_interactions_top2",
+    "opt0_entangling_layers_ratio",
+    "opt0_fraction_layers_active",
+    "opt0_max_twoq_in_layer_norm",
+    "opt0_layer_twoq_std_over_mean",
+    "opt3_depth_per_qubit",
+    "opt3_twoq_per_depth",
+    "opt3_cx_ratio",
+    "opt3_max_degree_norm",
+    "opt3_degree_std_over_mean",
+    "opt3_max_edge_weight_over_total",
+    "opt3_frac_interactions_top1",
+    "opt3_frac_interactions_top2",
+    "opt3_entangling_layers_ratio",
+    "opt3_fraction_layers_active",
+    "opt3_max_twoq_in_layer_norm",
+    "opt3_layer_twoq_std_over_mean",
+    "opt_depth_ratio_opt3_over_opt0",
+    "opt_twoq_ratio_opt3_over_opt0",
+    "opt_interaction_overlap_opt0_vs_opt3"
+  ],
+  "label_distribution": {
+    "benign": 3000,
+    "tampered": 6000
+  },
+  "trojan_type_distribution": {
+    "benign": 3000,
+    "static": 3000,
+    "triggered": 3000
+  },
+  "family_distribution": {
+    "deutsch_jozsa": 1800,
+    "grover": 1800,
+    "qaoa": 1800,
+    "vqc": 1800,
+    "qft": 1800
+  },
+  "validation_passed": true,
+  "feature_means_sample": {
+    "deutsch_jozsa": {
+      "benign": {
+        "logical_depth_per_qubit": 0.908405,
+        "logical_twoq_per_depth": 0.292032,
+        "logical_cx_ratio": 0.505,
+        "logical_max_degree_norm": 0.505,
+        "logical_degree_std_over_mean": 0.400297
+      },
+      "static": {
+        "logical_depth_per_qubit": 1.519764,
+        "logical_twoq_per_depth": 0.510214,
+        "logical_cx_ratio": 1.0,
+        "logical_max_degree_norm": 0.909802,
+        "logical_degree_std_over_mean": 0.980706
+      },
+      "triggered": {
+        "logical_depth_per_qubit": 1.128478,
+        "logical_twoq_per_depth": 0.481422,
+        "logical_cx_ratio": 0.402663,
+        "logical_max_degree_norm": 0.69629,
+        "logical_degree_std_over_mean": 0.978712
+      }
+    },
+    "grover": {
+      "benign": {
+        "logical_depth_per_qubit": 2.683572,
+        "logical_twoq_per_depth": 0.0,
+        "logical_cx_ratio": 0.0,
+        "logical_max_degree_norm": 0.0,
+        "logical_degree_std_over_mean": 0.0
+      },
+      "static": {
+        "logical_depth_per_qubit": 2.990078,
+        "logical_twoq_per_depth": 0.108912,
+        "logical_cx_ratio": 1.0,
+        "logical_max_degree_norm": 0.336524,
+        "logical_degree_std_over_mean": 1.689786
+      },
+      "triggered": {
+        "logical_depth_per_qubit": 2.759702,
+        "logical_twoq_per_depth": 0.060809,
+        "logical_cx_ratio": 0.0,
+        "logical_max_degree_norm": 0.168262,
+        "logical_degree_std_over_mean": 1.689786
+      }
+    },
+    "qaoa": {
+      "benign": {
+        "logical_depth_per_qubit": 2.070014,
+        "logical_twoq_per_depth": 1.851193,
+        "logical_cx_ratio": 0.0,
+        "logical_max_degree_norm": 1.365451,
+        "logical_degree_std_over_mean": 0.34991
+      },
+      "static": {
+        "logical_depth_per_qubit": 2.266553,
+        "logical_twoq_per_depth": 1.810737,
+        "logical_cx_ratio": 0.076457,
+        "logical_max_degree_norm": 1.464457,
+        "logical_degree_std_over_mean": 0.351396
+      },
+      "triggered": {
+        "logical_depth_per_qubit": 2.115313,
+        "logical_twoq_per_depth": 1.873957,
+        "logical_cx_ratio": 0.0,
+        "logical_max_degree_norm": 1.411869,
+        "logical_degree_std_over_mean": 0.34477
+      }
+    },
+    "vqc": {
+      "benign": {
+        "logical_depth_per_qubit": 2.918198,
+        "logical_twoq_per_depth": 1.653305,
+        "logical_cx_ratio": 1.0,
+        "logical_max_degree_norm": 1.668002,
+        "logical_degree_std_over_mean": 0.130824
+      },
+      "static": {
+        "logical_depth_per_qubit": 3.192484,
+        "logical_twoq_per_depth": 1.646077,
+        "logical_cx_ratio": 1.0,
+        "logical_max_degree_norm": 1.996114,
+        "logical_degree_std_over_mean": 0.193343
+      },
+      "triggered": {
+        "logical_depth_per_qubit": 2.972509,
+        "logical_twoq_per_depth": 1.686643,
+        "logical_cx_ratio": 0.947934,
+        "logical_max_degree_norm": 1.830223,
+        "logical_degree_std_over_mean": 0.153037
+      }
+    },
+    "qft": {
+      "benign": {
+        "logical_depth_per_qubit": 1.929396,
+        "logical_twoq_per_depth": 1.961977,
+        "logical_cx_ratio": 0.0,
+        "logical_max_degree_norm": 1.081017,
+        "logical_degree_std_over_mean": 0.011485
+      },
+      "static": {
+        "logical_depth_per_qubit": 2.187602,
+        "logical_twoq_per_depth": 1.914369,
+        "logical_cx_ratio": 0.08461,
+        "logical_max_degree_norm": 1.411494,
+        "logical_degree_std_over_mean": 0.123296
+      },
+      "triggered": {
+        "logical_depth_per_qubit": 2.006131,
+        "logical_twoq_per_depth": 1.973108,
+        "logical_cx_ratio": 0.0,
+        "logical_max_degree_norm": 1.246255,
+        "logical_degree_std_over_mean": 0.067783
+      }
+    }
+  }
+}

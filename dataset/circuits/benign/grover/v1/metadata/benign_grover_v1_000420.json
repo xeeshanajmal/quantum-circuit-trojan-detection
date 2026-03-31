@@ -1,0 +1,24 @@
+{
+  "sample_id": "benign_grover_v1_000420",
+  "label": "benign",
+  "trojan_type": "benign",
+  "trojan_severity": null,
+  "algorithm_family": "grover",
+  "algorithm_version": "v1",
+  "parent_sample_id": null,
+  "n_qubits": 9,
+  "oracle_type": "parity",
+  "diffusion_impl": "standard_mcz",
+  "num_iterations": 2,
+  "oracle_params": {
+    "parity_subset": [
+      5,
+      1
+    ]
+  },
+  "generation_index": 420,
+  "generation_seed": 2420,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T14:28:43.129433+00:00"
+}

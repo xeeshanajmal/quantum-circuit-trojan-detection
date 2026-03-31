@@ -1,0 +1,28 @@
+{
+  "sample_id": "tampered_vqc_static_v1_000149",
+  "label": "tampered",
+  "trojan_type": "static",
+  "trojan_severity": null,
+  "algorithm_family": "vqc",
+  "algorithm_version": "v1",
+  "parent_sample_id": "benign_vqc_v1_000149",
+  "n_qubits": 8,
+  "insertion_index": 9,
+  "insertion_point": "after_first_cx_entanglement_layer",
+  "reps": 1,
+  "rotation_blocks": [
+    "ry"
+  ],
+  "entanglement": "linear",
+  "generation_index": 149,
+  "generation_seed": 41149,
+  "generator_version": "QCTrojan-Bench-v1.0",
+  "qiskit_version": "2.3.1",
+  "created": "2026-03-30T15:55:38.174034+00:00",
+  "mod_class": "A",
+  "control_qubit": 4,
+  "target_qubit": 7,
+  "rz_angle": 1.25,
+  "payload_gate_count": 3,
+  "payload_description": "CX-RZ(1.25)-CX on qubits [4, 7]"
+}
