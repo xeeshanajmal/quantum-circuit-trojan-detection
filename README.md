@@ -164,12 +164,12 @@ A Zenodo release with the pre-generated dataset will be available upon paper acc
 If you use this dataset or pipeline, please cite:
 
 ```bibtex
-@article{ajmal2025qctrojanbench,
+@article{ajmal2026qctrojanbench,
   title   = {Software-Level Detection of Malicious Quantum Circuits:
              An Empirical Study},
   author  = {Ajmal, Zeeshan and Halunen, Kimmo and Khan, Arif Ali},
   journal = {Empirical Software Engineering},
-  year    = {2025},
+  year    = {2026},
   note    = {Under review}
 }
 ```
