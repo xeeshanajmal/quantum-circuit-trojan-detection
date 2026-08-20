@@ -178,8 +178,9 @@ If you use this dataset or pipeline, please cite:
 
 ## Licence
 
-Code and notebooks: MIT License
-Dataset (circuits and features): CC BY 4.0
+## Licence
+Code and notebooks (`notebooks/`): [MIT License](LICENSE)
+Dataset (circuits, features, results): [CC BY 4.0](LICENSE-DATA)
 
 ---
 
